@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_wearable"
+                path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/main/res/layout/activity_wearable.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >SampleWearApp
+                </string>
+                <string name="welcome_message" >Hello World!
+                </string>
+            </file>
+        </source>
+        <source path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/build/generated/res/rs/debug" />
+        <source path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/joshuamcwilliams/Downloads/SampleWearApp/Wearable/src/debug/res" />
+    </dataSet>
+
+</merger>
